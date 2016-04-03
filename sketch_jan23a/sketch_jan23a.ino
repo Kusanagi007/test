@@ -3,6 +3,7 @@
 boolean firstRun = true; // Used for one-run-only stuffs;
 
 //First pin being used for floppies, and the last pin. Used for looping over all pins.
+const byte FIRST_PIN = 2;
 const byte PIN_MAX = 17;
 #define RESOLUTION 40 //Microsecond resolution for notes
 
